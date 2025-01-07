@@ -45,12 +45,16 @@ nav ul li a {
   font-size: 15px;
   border: none;
 }
-.header {
-  background-image: url(../images/developer.png), url(../images/header_bg.png);
+.header{
+  background-image: url(../images/developer.png),url(../images/header_bg.png);
   background-repeat: no-repeat;
   background-position: top left, bottom right;
-  height: 800px;
+  
+  
 }
+  
+  /* height: 800px; */
+
 /* banner styles */
 .banner {
   display: flex;
