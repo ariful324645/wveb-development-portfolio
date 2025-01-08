@@ -204,3 +204,18 @@ font-size: 16px;
 font-weight: 400;
 margin-bottom: 24px;
 }
+.btn-primary1{
+  /* color: #FD6E0A;
+text-align: center;
+font-size: 20px;
+font-weight: 700;
+padding:2px 10px;
+line-height: normal; */
+font-weight: bold;
+color: #fd6E0A;
+padding: 12px 40px;
+border-radius: 5px;
+background-color: #fff8f3;
+font-size: 15px;
+border: none;
+}
