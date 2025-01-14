@@ -219,3 +219,41 @@ background-color: #fff8f3;
 font-size: 15px;
 border: none;
 }
+.hide{
+  display:none;
+}
+@media screen and (max-width:576px) {
+  .resume-container,.skills-container{
+    flex-direction: column;
+  margin:0px auto;
+  padding:20px;
+  }
+  .footer-column,.banner-content{
+    width: 100%;
+  
+}
+footer{
+  flex-direction: column;
+  padding:20px;
+}
+footer input[type="text"],footer input[type="email"]{
+  width:calc(100% - 40px);
+}
+footer textarea{
+  width: calc(100% - 60px);
+}
+.btn-primary1{
+  width: calc(100% - 80px);
+}
+.skill{
+  width: calc(100% - 60px);
+}
+.about{
+  padding:10px 20px;
+}
+.about-items,nav,nav ul,.banner{
+  flex-direction: column;
+}
+.header{
+  background-image: none;
+}
